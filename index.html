@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Soporte Técnico Donoso e Hijos | Fibra Óptica</title>
+  <meta name="description" content="Reparación, mantenimiento y certificación de redes de fibra óptica en la Región Metropolitana. Empalmes, fusiones, OTDR, FTTH/FTTx." />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="Soporte Técnico Donoso e Hijos | Fibra Óptica">
+  <meta property="og:description" content="Empalmes y fusiones, certificación OTDR, reparación de cortes, mantenimiento preventivo y despliegue FTTH/FTTx en la Región Metropolitana.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/hero_banner.jpg">
+  <style>
+    :root{
+      --mx:1100px; --brand:#0ea5e9; --brand-2:#0369a1;
+      --text:#0f172a; --muted:#475569; --bg:#ffffff; --bg-alt:#f8fafc; --line:#e2e8f0;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; color:var(--text); background:var(--bg)}
+    a{color:inherit; text-decoration:none}
+    .container{max-width:var(--mx); margin:0 auto; padding:0 16px}
+    header{position:sticky; top:0; backdrop-filter:blur(6px); background:rgba(255,255,255,.85); border-bottom:1px solid var(--line); z-index:10}
+    .nav{display:flex; align-items:center; justify-content:space-between; height:64px}
+    .brand{display:flex; align-items:center; gap:10px; font-weight:800}
+    .brand img{width:28px; height:28px; border-radius:6px}
+    .menu{display:flex; gap:14px}
+    .menu a{padding:8px 10px; border-radius:8px}
+    .menu a:hover,.btn:hover{background:#e0f2fe}
+    .btn{display:inline-block; padding:10px 16px; border:1px solid var(--brand); color:var(--brand); border-radius:10px; font-weight:600}
+    .btn.primary{background:var(--brand); color:#fff; border-color:var(--brand)}
+    .hero{padding:0 0 48px; background:var(--bg-alt); border-bottom:1px solid var(--line)}
+    .hero img{width:100%; height:auto; display:block}
+    .hero .inner{padding:24px 0}
+    .hero h1{font-size:clamp(28px,5vw,48px); margin:0 0 10px; line-height:1.1}
+    .hero p{color:var(--muted); margin:0 0 20px; font-size:18px}
+    .grid{display:grid; gap:16px; grid-template-columns:repeat(12,1fr)}
+    .col-6{grid-column:span 6}
+    .col-4{grid-column:span 4}
+    .col-3{grid-column:span 3}
+    .card{border:1px solid var(--line); border-radius:12px; padding:16px; background:#fff}
+    section{padding:56px 0}
+    h2{margin:0 0 10px; font-size:clamp(22px,3.5vw,34px)}
+    p.lead{color:var(--muted); margin:0 0 24px}
+    .pill{display:inline-block; font-size:12px; border:1px solid var(--line); padding:6px 10px; border-radius:999px; color:var(--brand-2)}
+    .list{margin:0; padding:0; list-style:none; display:grid; gap:10px}
+    .list li{display:flex; align-items:flex-start; gap:10px}
+    .list svg{width:18px; height:18px; flex:0 0 18px}
+    .steps{counter-reset:step}
+    .step{display:flex; gap:12px; align-items:flex-start}
+    .step .n{counter-increment:step; width:28px; height:28px; border-radius:999px; border:1px solid var(--brand); display:grid; place-items:center; font-weight:700}
+    details{border:1px solid var(--line); border-radius:10px; padding:12px 14px; background:#fff}
+    details+details{margin-top:10px}
+    footer{border-top:1px solid var(--line); padding:28px 0; color:var(--muted); font-size:14px}
+    .badgebar{display:flex; gap:10px; flex-wrap:wrap; align-items:center}
+    .badge{border:1px solid var(--line); border-radius:999px; padding:6px 10px; font-size:12px}
+    .cta{display:flex; gap:10px; flex-wrap:wrap}
+    .note{font-size:13px; color:var(--muted)}
+    .hero-ill{display:grid; gap:12px}
+    .hero-ill .row{display:flex; gap:12px}
+    .hero-ill .box{flex:1; border:1px dashed #bae6fd; background:#f0f9ff; border-radius:10px; padding:12px}
+    .hero-ill small{color:var(--muted)}
+    .hamburger{display:none; background:none; border:0; padding:8px; font-size:20px}
+    @media (max-width: 900px){
+      .col-6,.col-4,.col-3{grid-column:1 / -1}
+      .menu{display:none; flex-direction:column; padding:8px 0}
+      .menu.open{display:flex}
+      .hamburger{display:inline-flex}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav" aria-label="Barra de navegación">
+      <div class="brand">
+        <img src="favicon.png" alt="Logo ST Donoso e Hijos">
+        <span>Soporte Técnico Donoso e Hijos</span>
+      </div>
+      <nav aria-label="Menú principal">
+        <button class="hamburger" aria-expanded="false" aria-controls="menu">☰</button>
+        <div id="menu" class="menu">
+          <a href="#inicio">Inicio</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#proceso">Proceso</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contacto" class="btn">Contacto</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <img src="assets/hero_banner.jpg" alt="Fibra óptica - Soporte Técnico Donoso e Hijos">
+      <div class="container inner">
+        <span class="pill" aria-label="Etiqueta de servicio">Reparación y Mantenimiento de Fibra Óptica</span>
+        <h1>Empalmes, certificación OTDR y respuesta rápida ante cortes</h1>
+        <p>Atendemos toda la Región Metropolitana: FTTH/FTTx, backbone y enlaces dedicados. Diagnóstico preciso, reposición ágil y documentación profesional.</p>
+        <div class="cta">
+          <a href="#contacto" class="btn primary">Solicitar visita técnica</a>
+          <a href="#servicios" class="btn">Ver servicios</a>
+        </div>
+        <div class="badgebar" style="margin-top:14px">
+          <span class="badge">OTDR & Power Meter</span>
+          <span class="badge">Fusiones por arco</span>
+          <span class="badge">Certificación y mediciones</span>
+          <span class="badge">Mantenimiento preventivo</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios">
+      <div class="container">
+        <h2>Servicios técnicos</h2>
+        <p class="lead">Proyectos nuevos y correctivos en operación.</p>
+        <div class="grid">
+          <div class="col-4">
+            <div class="card">
+              <img src="assets/card_1.jpg" alt="Empalmes y fusiones" style="width:100%;border-radius:8px;margin-bottom:10px">
+              <h3>Empalmes y fusiones</h3>
+              <ul class="list">
+                <li>Pigtails, bandejas, ODF/ODF mini y NAP</li>
+                <li>Atenuaciones objetivo ≤ 0.2 dB por empalme</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="assets/card_2.jpg" alt="OTDR y certificación" style="width:100%;border-radius:8px;margin-bottom:10px">
+              <h3>Certificación & mediciones</h3>
+              <ul class="list">
+                <li>OTDR (trazas .sor/.pdf)</li>
+                <li>Power Meter & Light Source</li>
+                <li>Informe de pérdidas por tramo</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="assets/card_3.jpg" alt="Mantenimiento y reparación" style="width:100%;border-radius:8px;margin-bottom:10px">
+              <h3>Mantenimiento y reparación</h3>
+              <ul class="list">
+                <li>Cortes: localización y restitución</li>
+                <li>Inspección con VFL/Microscopio</li>
+                <li>Gestión de ruta/etiquetado</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <strong>Acuerdos de nivel de servicio (SLA)</strong>
+          <p class="note">Opcionales: tiempos de respuesta, ventanas de mantenimiento y KPIs de disponibilidad. Solicita una propuesta.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="proceso">
+      <div class="container">
+        <h2>Cómo trabajamos</h2>
+        <p class="lead">Proceso claro para minimizar caída de servicio y dejar trazabilidad completa.</p>
+        <div class="grid steps">
+          <div class="col-3 step card"><div class="n">1</div><div><strong>Diagnóstico</strong><br><span class="note">Levantamiento, revisión de cajas, medición inicial.</span></div></div>
+          <div class="col-3 step card"><div class="n">2</div><div><strong>Intervención</strong><br><span class="note">Fusión, limpieza, reemplazo de conectores y protecciones.</span></div></div>
+          <div class="col-3 step card"><div class="n">3</div><div><strong>Validación</strong><br><span class="note">OTDR/Power Meter, registro fotográfico y checklist.</span></div></div>
+          <div class="col-3 step card"><div class="n">4</div><div><strong>Entrega</strong><br><span class="note">Informe, planos actualizados y recomendaciones.</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container">
+        <h2>Preguntas frecuentes</h2>
+        <details>
+          <summary>¿Qué incluye un mantenimiento preventivo?</summary>
+          Limpieza de conectores, revisión de curvaturas, ordenamiento de bandejas, pruebas con VFL y medición de pérdidas de referencia.
+        </details>
+        <details>
+          <summary>¿Atienden emergencias por corte?</summary>
+          Sí. Localizamos el fallo (OTDR), seccionamos, realizamos fusiones y validamos. Tiempo sujeto a accesos y condiciones en terreno.
+        </details>
+        <details>
+          <summary>¿Entregan informes de certificación?</summary>
+          Sí, con trazas OTDR y reporte de pérdidas por tramo en PDF/archivo nativo.
+        </details>
+        <details>
+          <summary>¿Trabajan FTTH/FTTx y backbone?</summary>
+          Sí. Desde distribución (NAP) hasta troncales, con documentación y etiquetado.
+        </details>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="container">
+        <h2>Contacto</h2>
+        <p class="lead">Cuéntanos tu requerimiento y te responderemos pronto.</p>
+        <form name="contacto" onsubmit="return handleSubmit(event)">
+          <label>Nombre
+            <input type="text" name="nombre" required autocomplete="name" />
+          </label>
+          <label>Email
+            <input type="email" name="email" required autocomplete="email" />
+          </label>
+          <label>Teléfono
+            <input type="tel" name="telefono" autocomplete="tel" />
+          </label>
+          <label>Mensaje
+            <textarea name="mensaje" rows="5" required placeholder="Ej: fibra cortada en tramo entre NAP-12 y ODF, necesitamos reposición y certificación."></textarea>
+          </label>
+          <div class="cta">
+            <button class="btn primary" type="submit">Enviar</button>
+            <a id="whatsapp" class="btn" href="#" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">WhatsApp</a>
+          </div>
+          <p id="status" role="status" aria-live="polite"></p>
+        </form>
+        <p class="note" style="margin-top:12px">Al enviar, aceptas que almacenemos tus datos solo para responder tu solicitud.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year"></span> Soporte Técnico Donoso e Hijos. Todos los derechos reservados.</div>
+  </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Soporte Técnico Donoso e Hijos",
+    "description": "Reparación, mantenimiento y certificación de redes de fibra óptica (FTTH/FTTx, backbone).",
+    "areaServed": "Región Metropolitana",
+    "url": "https://tusitio.example",
+    "telephone": "+56 9 6282 2440",
+    "serviceType": ["Empalmes y fusiones", "OTDR & Power Meter", "Mantenimiento preventivo", "Reparación de cortes", "FTTH/FTTx"],
+    "openingHours": "Mo-Fr 09:00-18:00"
+  }
+  </script>
+
+  <script>
+    const btn = document.querySelector('.hamburger');
+    const menu = document.getElementById('menu');
+    btn.addEventListener('click', () => {
+      const open = menu.classList.toggle('open');
+      btn.setAttribute('aria-expanded', String(open));
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const waNumber = '56962822440';
+    const waText = encodeURIComponent('Hola, necesito soporte en fibra óptica (empalme/certificación/mantenimiento).');
+    document.getElementById('whatsapp').href = `https://wa.me/${waNumber}?text=${waText}`;
+
+    function handleSubmit(e) {
+      e.preventDefault();
+      const form = e.target;
+      const data = Object.fromEntries(new FormData(form).entries());
+      console.log('Mensaje enviado:', data);
+      const msg = document.getElementById('status');
+      msg.textContent = '¡Gracias! Tu solicitud fue registrada (simulación).';
+      form.reset();
+      return false;
+    }
+  </script>
+</body>
+</html>
